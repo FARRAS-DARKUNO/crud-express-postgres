@@ -84,7 +84,7 @@ export const resultMahasiswaMw = asyncMw(async(req, res, next) => {
     return res.status(200).json({
         status : 200,
         data : req.listMahasiswa,
-        count : req.constMahasiswa
+        count : req.constMahasiswa,
     })
 })
 
